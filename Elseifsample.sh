@@ -1,7 +1,7 @@
 #!/bin/bash
 
-KKR=$NUM1
-ASR=$NUM2
+KKR=$1
+ASR=$2
 
 if [ "$KKR" > "$ASR" ]; then
 echo "Kranthi age is oider than Saidi"
