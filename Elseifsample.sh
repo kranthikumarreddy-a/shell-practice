@@ -3,10 +3,10 @@
 KKR=$1
 ASR=$2
 
-if [ "$KKR" > "$ASR" ]; then
-echo "Kranthi age is oider than Saidi"
-elif [ "$KKR" >= "$ASR" ]; then
-echo "Kranthi age is greater then Saidi"
+if [ "$KKR" -gt "$ASR" ]; then
+    echo "Kranthi age is older than Saidi"
+elif [ "$KKR" -lt "$ASR" ]; then
+    echo "Saidi age is older than Kranthi"
 else
-echo "They both are equal"
+    echo "They both are equal"
 fi
