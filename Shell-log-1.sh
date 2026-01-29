@@ -14,7 +14,7 @@ echo "Installing nginx"
 fi
 }
 VALIDATE $? "installing nginx"
-if [ $1 -ne 0 ]; then
+if [ $2 -ne 0 ]; then
 echo "Installing nginx is scuccess"
 else
 echo "Calling is failed"
