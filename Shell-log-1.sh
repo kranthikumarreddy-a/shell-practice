@@ -14,7 +14,7 @@ echo "Installing nginx"
 fi
 }
 
-if [ USER_ID -ne 0 ]; then
+if [ $1 -ne 0 ]; then
 VALIDATE $? "installing nginx"
 else
 echo "Calling is failed"
