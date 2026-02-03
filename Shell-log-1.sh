@@ -11,7 +11,7 @@ else
 echo "Running the script"
 fi
 
-for SERVICE in "$@" &>> $LOGS_FILE
+for SERVICE in "$@" 
 do
 echo "Installing the : $SERVICE"
 dnf install $SERVICE -y   &>> $LOGS_FILE
